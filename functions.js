@@ -16,3 +16,8 @@ function factorial(num){
 	}
 }
 
+
+//taking multiple arguments
+function createGamer(name, age){
+	console.log("Gamer "+ name + " was created. Age = " + age);
+}
