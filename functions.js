@@ -21,3 +21,9 @@ function factorial(num){
 function createGamer(name, age){
 	console.log("Gamer "+ name + " was created. Age = " + age);
 }
+
+
+//this function capitalizes the first char in a string
+function cap(str){
+	return str[0].toUpperCase() + str.slice(1)
+}
