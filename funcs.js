@@ -44,3 +44,10 @@ function checkDash(){
 	
 }
 //hello-world-how-is-shit--
+
+//another way to implement kebabToSnake()
+
+function kebabToSnake2(str){
+	var str = str.replace(/-/g, "_");
+	return str;
+}
