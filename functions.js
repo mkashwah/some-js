@@ -25,5 +25,10 @@ function createGamer(name, age){
 
 //this function capitalizes the first char in a string
 function cap(str){
+	//fix unacceptable inputs
 	return str[0].toUpperCase() + str.slice(1)
 }
+
+//functions expression
+//var func = function(){}
+
