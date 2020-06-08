@@ -26,5 +26,7 @@ for(let i = 5; i <= 50; i++){
 			console.log("divisible number is: " + i);
 		}
 
+
+
 }
 
