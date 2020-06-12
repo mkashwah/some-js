@@ -19,3 +19,31 @@ var posts = [
 		comments: ["aaa", "bbb"]
 	}
 ]
+
+//adding methods to an object
+var obj = {
+	name: "bob",
+	profession: "builder",
+	age: 40,
+	friends: ["rob", "flop"],
+	add: function(x,y){
+		return x+y;
+	}
+}
+
+var comments = {
+
+};
+
+comments.data = ["good", "bad", "lol"];
+// function print(array){
+// 	array.forEach(function(el){
+// 		console.log(el);
+// 	});
+// }
+
+comments.print = function(){
+	this.data.forEach(function(el){
+		console.log(el);
+	});
+}
