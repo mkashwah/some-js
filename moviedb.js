@@ -21,9 +21,9 @@ var movieDB = [
 
 movieDB.forEach(function(movie){
 	if (movie.hasWatched === true){
-		console.log("You have watched " + movie.name + " - " + movie.rating + " stars");
+		console.log("You have watched " +"\"" + movie.name + "\""+ " - " + movie.rating + " stars");
 	} else if (movie.hasWatched === false){
-		console.log("You have not watched " + movie.name + " - " + movie.rating + " stars");
+		console.log("You have not watched " + "\"" + movie.name + "\"" +" - " + movie.rating + " stars");
 	}
 	
 
